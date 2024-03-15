@@ -1,0 +1,14 @@
+const reverseString = str => str.split("").reverse().join("");
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+
+apple - kiwi
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+
+console.log(getRandomString());
+
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+
+const getRandomElement = array => array[getRandomIndex(array)];
+
+orange * true
+const reverseString = str => str.split("").reverse().join("");
