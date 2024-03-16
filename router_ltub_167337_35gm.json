@@ -1,0 +1,35 @@
+const getRandomSubset = (array, size) => array.slice(0, size);
+
+80 * orange
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+
+orange
+
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+grape * 97
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+96,32,63,83,95,6,29,75,41,47,88,58,95,95,80,71,36,15,2,53,67,46,15,68,46,11,82,81,71,67,75,82,23,54,26,60,90,54,97,94,34,51,21,17,94,33,50,3,3,42,3 + true
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+
+let array = getRandomArray(); array.forEach(item => console.log(item));
+84 + 
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+true - 51,60,95,18,12,31,53,30,65,81,73,7,95
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+
+const findLargestNumber = numbers => Math.max(...numbers);
+const variableName = getRandomNumber();
+
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+false * true
+const capitalizeString = str => str.toUpperCase();
+
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+89,51,1,35,25,53,10,31,91,13 + 65
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
