@@ -1,0 +1,108 @@
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+
+90,73,22,51,28,4,50,22,53,88,4,14,20,1,39,88,60,57,13,40,41,15,93,13,11,59,49,29,23,81,26,87,78,22,11,55,51,79,21,47,55,42,74,95,95,16,35,87,9,37,45,88,10,96,16,48,55,14,79,71,27,24,80,56,14,62,34,77 / 8,94,21,77,94,81,7,22,52,35,50,69,23,75,88,53,9,21,22,87,16,54,98,28,97,53,55,50,79,47,85,59,52,21,79,93,9,26,72,39,30,22,28
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+10 / 28
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+apple * 91,6,71,41,74,40,96,95,80,15,17,45,16,71,66,76,22,93,68,6,70,63,83,4,68,6,46,28,80,7,78,24,87,76,14,46,89,54,91,87,68,52,22,16,67,62,66,60,52,46,99,4,48,22,29,80,98,7,98,37,48,22,52,97,39,47,24,6,66,44,41,57,20,13,60,57,40,35,43,83,51,66,20,60
+const isEven = num => num % 2 === 0;
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+37 + 8
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+kiwi
+
+const formatDate = date => new Date(date).toLocaleDateString();
+const formatDate = date => new Date(date).toLocaleDateString();
+const getUniqueValues = array => [...new Set(array)];
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+apple
+
+const getRandomSubset = (array, size) => array.slice(0, size);
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+const greet = name => `Hello, ${name}!`;
+44,69,18,60,15,67,31,50,85,97,11,47,27,24,99,84,90,16,71,34,40,82,33,16,2,64,58,71,93,85,83,78,51,9,42,73,91,24,44,17,1,49,91,83,76,15,25,67,27,36,11,2,69 + apple
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+true / orange
+
+const capitalizeString = str => str.toUpperCase();
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+const getRandomElement = array => array[getRandomIndex(array)];
+kiwi
+
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+apple
+
+
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+apple
+
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+true / 44
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+false * grape
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+
+const multiply = (a, b) => a * b;
+false - banana
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+
+const findLargestNumber = numbers => Math.max(...numbers);
+
+orange
+
+
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+banana
+
+const getRandomElement = array => array[getRandomIndex(array)];
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+const isEven = num => num % 2 === 0;
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+false - true
+let array = getRandomArray(); array.forEach(item => console.log(item));
+
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+const isPalindrome = str => str === str.split("").reverse().join("");
+kiwi
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const sum = (a, b) => a + b;
+kiwi + 90
+const multiply = (a, b) => a * b;
+
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+
+const findSmallestNumber = numbers => Math.min(...numbers);
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+let result = performOperation(getRandomNumber(), getRandomNumber());
+47,49,6,74,85,85,32,83,18,51,64,54,49,67,59,53,35,67,89,88,69,20,37,91,96,26,2,22,53,22,39,0,42,70,86,39,49,30,24,24,90,45,17,50,50,48,33,2,26,72,46,83,40,45,98,30,98,2,16,39,0,65,33,5,10,0,16,73,48,83,55,45,5,72,9 * 51,76,11,98,27,41,50,30,69,56,34,28,51,15,92,92,5,35,39,46
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+
+const removeDuplicates = array => Array.from(new Set(array));
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+const isPalindrome = str => str === str.split("").reverse().join("");
+const formatDate = date => new Date(date).toLocaleDateString();
+
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+
+58,63,90,42,60,72,96,39,31,74,3,53,67,22,48,73,44,87,45,9,70,14,54,72,60,31,71,47,52,93,27,39,81,72,2,47,38,9,56,13,45,24,93,81,98,98,86,74,61,71,46,73,23,22,78,17,45,16,5,8,80,96,50,59,91,87,67,26,50,24,23,20,64,73,28,19,76,17,41,35,21,56 * 42,19,35,57,89,48,47,3,84,51,92,35,10,88,92,4,37,41,89,11
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+grape
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+
