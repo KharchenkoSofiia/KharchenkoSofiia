@@ -1,0 +1,40 @@
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+
+const capitalizeString = str => str.toUpperCase();
+
+apple / false
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+orange
+
+
+const capitalizeString = str => str.toUpperCase();
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+86,94,3,60,55,44,67,92,51,56,96,15,87 - grape
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+11 / kiwi
+// This is a comment
+const greet = name => `Hello, ${name}!`;
+
+const isEven = num => num % 2 === 0;
+orange
+
+const getUniqueValues = array => [...new Set(array)];
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+const getUniqueValues = array => [...new Set(array)];
+orange
+
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+const sum = (a, b) => a + b;
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+grape
+
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+21,94,95,25,6,36,17,84,77,1,8,42,29,44,81,97,96,20 * 66
+const isPalindrome = str => str === str.split("").reverse().join("");
+const reverseWords = str => str.split(" ").reverse().join(" ");
+const getRandomSubset = (array, size) => array.slice(0, size);
