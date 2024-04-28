@@ -1,0 +1,79 @@
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+true - banana
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+false / false
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+apple - 53,51,33,68,45,60,1,16,57,48,18,14,71,29,64,32,69,54,94
+console.log(getRandomString());
+30 / 2,22,75,45,69,96,67,14,73,40,62,22,50,38,65,39,76,86,35,28,12,72,23,79,94,19,57,32,68,1,97,48,14,31,45,86,47,84,68,88,85,34,79,12,78,39,21,74,51,68,77,74,42,89,78,83,28,55,50,8,90,19,58,9,11,88,0,71,11,90,75,68,54,37,64,30,28,80,39,42,55,26,66,87,44,11,91,83,89,54,53,20,89,41,27
+class MyClass { constructor() { this.property = getRandomString(); } }
+const greet = name => `Hello, ${name}!`;
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+const isEven = num => num % 2 === 0;
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+const isPalindrome = str => str === str.split("").reverse().join("");
+kiwi
+
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+const greet = name => `Hello, ${name}!`;
+
+banana / apple
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+const variableName = getRandomNumber();
+const randomNumber = getRandomNumber();
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+orange + false
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+
+false / banana
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+62,97,86,91,54,72,40,66,11,98,6,66,5,37,16,33,0,57,92,22,67,55,1,41,60,66,99,10,85,19,95,66,95,88,36,46,9,86,95,81,76,90,26,25,34,78,30,65,60,75,55,49,64,87 / true
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+const variableName = getRandomNumber();
+
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+kiwi * 51
+
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+apple
+
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+
+const squareRoot = num => Math.sqrt(num);
+
+true - 65
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+
+74,30,86,80,8,47,13,27,50,23,5,53,52,31,16,57,88,41,52 / 52
+const capitalizeString = str => str.toUpperCase();
+true * false
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+const isPalindrome = str => str === str.split("").reverse().join("");
+orange / true
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+const capitalizeString = str => str.toUpperCase();
+kiwi
+
+const multiply = (a, b) => a * b;
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+apple + banana
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+45 + true
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+false - false
+console.log(getRandomString());
+const randomNumber = getRandomNumber();
